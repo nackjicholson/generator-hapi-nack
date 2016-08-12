@@ -1,6 +1,6 @@
 {
   "name": "generator-hapi-nack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "hapijs micro-service generator",
   "homepage": "http://github.com/nackjicholson/generator-hapi-nack",
   "author": {
