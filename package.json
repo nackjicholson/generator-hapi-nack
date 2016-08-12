@@ -1,0 +1,48 @@
+{
+  "name": "generator-hapi-nack",
+  "version": "0.0.0",
+  "description": "hapijs micro-service generator",
+  "homepage": "http://github.com/nackjicholson/generator-hapi-nack",
+  "author": {
+    "name": "Will Vaughn",
+    "email": "willieviseoae@gmail.com",
+    "url": "https://github.com/nackjicholson"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash.camelcase": "^4.2.0",
+    "lodash.kebabcase": "^4.1.0",
+    "superb": "^1.3.0",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-xo-space": "^0.14.0",
+    "mocha": "^3.0.2",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.4.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "nackjicholson/generator-hapi-nack",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT"
+}
