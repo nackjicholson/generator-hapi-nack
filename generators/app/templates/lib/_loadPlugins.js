@@ -54,11 +54,8 @@ const pkgPlugin = {
 };
 
 /**
- * Loads plugins and returns a promise is resolved when all of the plugins
- * are finished loading. The promise is rejected if any errors occur.
- *
- * - good / goodConsole  app logging.
- * - The healthcheck plugin
+ * Loads plugins and returns a promise is resolved when plugins
+ * are finished loading.
  *
  * @param server
  * @param devMode
