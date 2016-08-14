@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_NAME=<%= name %>/<%= projectName %>
+CONTAINER_NAME=<%= containerNamespace %>/<%= projectName %>
 CONTAINER_PORT=9000
 VERSION=$1
 ENV=${2:-production}

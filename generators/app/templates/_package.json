@@ -2,7 +2,7 @@
   "name": "<%= projectName %>",
   "version": "0.0.0",
   "description": "<%= description %>",
-  "repository": "<%= githubUsername %>/<%= projectName %>",
+  "repository": "<%= organizationName %>/<%= projectName %>",
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>"
@@ -12,9 +12,9 @@
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/<%= githubUsername %>/<%= projectName %>/issues"
+    "url": "https://github.com/<%= organizationName %>/<%= projectName %>/issues"
   },
-  "homepage": "https://github.com/<%= githubUsername %>/<%= projectName %>#readme",
+  "homepage": "https://github.com/<%= organizationName %>/<%= projectName %>#readme",
   "devDependencies": {
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^10.0.0",

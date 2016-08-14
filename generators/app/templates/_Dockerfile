@@ -2,8 +2,8 @@ FROM node
 
 RUN apt-get update
 
-ADD . /var/<%= name %>/<%= serviceId %>
-WORKDIR /var/<%= name %>/<%= serviceId %>
+ADD . /var/<%= organizationName %>/<%= serviceId %>
+WORKDIR /var/<%= organizationName %>/<%= serviceId %>
 
 RUN npm install --production
 
