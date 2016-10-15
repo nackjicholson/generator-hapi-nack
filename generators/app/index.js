@@ -61,8 +61,8 @@ module.exports = yeoman.Base.extend({
       this.template('_README.md', 'README.md', this.props);
       this.template('_deploy.sh', 'deploy.sh', this.props);
       this.template('_Dockerfile', 'Dockerfile', this.props);
-      this.template('_server.js', 'server.js', this.props, { interpolate });
-      this.template('lib/_loadPlugins.js', 'lib/loadPlugins.js', this.props, { interpolate });
+      this.template('_server.js', 'server.js', this.props, {interpolate});
+      this.template('lib/_loadPlugins.js', 'lib/loadPlugins.js', this.props, {interpolate});
       this.copy('lib/foo.js', 'lib/foo.js');
     },
     testFiles() {
