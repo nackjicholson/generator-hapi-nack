@@ -36,13 +36,11 @@ Also provides a sample route "/foobar" which returns a JSON response `{"foo": "b
 
 **Linting with Eslint**
 
-Configured by default to use the "airbnb/base" eslint preset which provides 
-a mostly sane set of rules for writing JavaScript, learn more [here](https://github.com/airbnb/javascript)
+Configured by default to use the "xo-space" learn more [here](https://github.com/sindresorhus/xo)
 
 `$ npm run lint`
 
-Will lint your code anytime a file changes in the `lib` and `test` directory. Analyzes your code for adherence to
-a code style specification. Uses the "airbnb" eslint preset.
+Will lint your code anytime a file changes in the `lib` and `test` directory.
 
 **Tests with mocha**
 
