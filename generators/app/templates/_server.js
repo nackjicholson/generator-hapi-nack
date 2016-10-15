@@ -2,7 +2,7 @@ const Server = require('hapi').Server;
 const loadPlugins = require('./lib/loadPlugins');
 
 const server = new Server();
-server.connection({ port: 9000 });
+server.connection({port: 9000});
 
 /**
  * Sets up a sample route.
@@ -13,7 +13,11 @@ function code() {
     method: 'GET',
     path: '/foobar',
     handler(request, reply) {
-      reply({ foo: 'bar' });
+      reply({foo: 'bar'});
+    },
+    config: {
+      description: 'foobar sample route',
+      tags: ['api']
     }
   });
 }

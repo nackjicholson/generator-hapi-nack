@@ -14,7 +14,7 @@ const goodPlugin = {
         {
           module: 'good-squeeze',
           name: 'Squeeze',
-          args: [{ log: '*', error: '*' }]
+          args: [{log: '*', error: '*'}]
         },
         {
           module: 'good-console'
@@ -47,9 +47,9 @@ const swaggeredUiPlugin = {
 const pkgPlugin = {
   register: hapiPkg,
   options: {
-    pkg: { status: 'ok', version },
+    pkg: {status: 'ok', version},
     endpoint: 'healthcheck',
-    config: { auth: false, description: 'Health status and version' }
+    config: {auth: false, description: 'Health status and version'}
   }
 };
 
@@ -78,7 +78,7 @@ function loadPlugins(server, devMode = false) {
       plugins = [...plugins];
     }
 
-    server.register(plugins, (err) => {
+    server.register(plugins, err => {
       if (err) {
         reject(err);
       } else {
